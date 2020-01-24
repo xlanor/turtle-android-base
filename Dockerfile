@@ -19,10 +19,7 @@ RUN mkdir -p /usr/share/man/man1 && \
 RUN apt-get install unzip -y && \
     apt-get autoremove -y &&\
     apt-get install sudo -y &&\
-    apt-get install vim -y &&\ 
-    apt-get install rsync -y &&\
-    apt-get install curl -y && \
-    apt-get install jq -y
+    apt-get install vim -y  
 
 
 # Switch to the node user
